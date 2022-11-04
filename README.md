@@ -1,6 +1,4 @@
 # Artwork-Code
-Contains code used for undergraduate artwork analysis project.
+Contains code used for the Paper-based Artwork Analysis Project.
 
-TDMSProcessGallery.py and analysisFunctionGallery.py have been edited from their originals.
-
-SurfaceDepthMapping.py is a new Python file.
+The primary analysis scripts to use are the 'EdgeDetection_xxx' python files in combination with analysisFunctionGallery.py, this will allow you to complete any OCT scan analysis that is saved as .TIF file.
