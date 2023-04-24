@@ -35,7 +35,7 @@ def surfaceDetect(intdB,thresh,buffer,skip):
         done = False
         bufferNew = int(buffer/2)
         while done == False:
-            threshNew = threshNew - 1
+            threshNew = threshNew - 100
             #print('threshold is now {}'.format(threshNew))
             for j in range(start,len(intdB[:,int(i[1])])):
                 if intdB[j,int(i[1])]>threshNew:
@@ -84,7 +84,7 @@ def surfaceDetect2(intdB,thresh,buffer,skip):
         done = False
         bufferNew = int(buffer/2)
         while done == False:
-            threshNew = threshNew - 1
+            threshNew = threshNew - 100
             #print('threshold is now {}'.format(threshNew))
             for j in range(start,len(intdB[:,int(i[1])])):
                 if intdB[j,int(i[1])]>threshNew:
